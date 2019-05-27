@@ -1,0 +1,50 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(88, 92, 92);
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+flex: 0 0 95%;
+}
+.screen{
+    width: 99%;
+    font-size: 7rem;
+    padding: 0.5rem;
+    background: rgb(41, 41 , 56);
+    border: none;
+    color: white;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all .5 linear
+}
+button{
+    flex: 0 0 25%;
+    border:1px solid black;
+    padding: .25px 0;
+    transition: all 2s;
+}
+button:hover{
+    background-color: blue;
+}
+.btn-yellow{
+    background-color: rgb(236, 139, 12);
+    color: white;
+}
+.btn-grey{
+    background-color: rgb(146, 146, 141);
+    color: white;
+}
+.btn, .btn-equal, .btn-clear{
+font-size: 4rem;
+}
+.btn-equal{
+    background-color: green;
+}
+.btn-clear{
+    background-color: red;
+}
